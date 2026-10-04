@@ -14,7 +14,7 @@ using namespace std;
 
 int main()
 {
-    double replacementTotal, insuranceMinimum;
+    double replacementTotal, insuranceMinimum;      //To hold the value for the total replacement cost, and the recommended minimum value
 
     cout << "Enter the replacement cost of the home or building in dollars: ";
     cin >> replacementTotal;
@@ -22,6 +22,7 @@ int main()
     insuranceMinimum = (replacementTotal * 0.80);       //find the minimum recommended value by multiplying the total by 80%
 
     cout << "The recommended minimum amount of insurance that should be purchased for the property is: $" << insuranceMinimum << "\n";
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
